@@ -15,6 +15,9 @@
 ////BitBoolの利用方法//
 //#include"UseBitBool.h"
 
+////BaseFrameの利用方法//
+//#include"UseFrame.h"
+
 int main(int _argc, char* _args[])
 {
 	return mainFunction();
