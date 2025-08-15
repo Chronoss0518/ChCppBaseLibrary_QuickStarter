@@ -4,8 +4,10 @@
 //挙動を確認したい項目のコメントアウトを外してください//
 
 ////ChStdの使用方法//
-#include"UseChStd.h"
+//#include"UseChStd.h"
 
+////ChMath及びChMath3Dの利用方法//
+#include"UseChMathAndChMath3D.h"
 
 int main(int _argc, char* _args[])
 {
