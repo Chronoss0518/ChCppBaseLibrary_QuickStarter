@@ -147,7 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\UseBitBool.h" />
     <ClInclude Include="src\UseChMathAndChMath3D.h" />
+    <ClInclude Include="src\UseChPtr.h" />
     <ClInclude Include="src\UseChStd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
