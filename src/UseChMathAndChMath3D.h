@@ -23,12 +23,12 @@ inline int mainFunction()
 	//以下ではどの値に初期化するかをわかりやすくしたメソッドの利用イメージです//
 	vec3 = ChVector3::FromColor(r, g, b);
 
-	std::cout << "RGB [" << vec3.Serialize<char>(",", "") << "]" << std::endl;
+	std::cout << "Vector3(RGB) [" << vec3.Serialize<char>(",", "") << "]" << std::endl;
 
 	//これらのクラスは保持する変数を配列として保持しているため、以下のように取り出すことも可能です//
 	float* tmoValue = &vec3.val[0];
 
-	std::cout << "RGB [" << tmoValue[0] << "," << tmoValue[1] << "," << tmoValue[2] << "]" << std::endl;
+	std::cout << "Vector3(float*) [" << tmoValue[0] << "," << tmoValue[1] << "," << tmoValue[2] << "]" << std::endl;
 
 	//上記のようにポインタを取得することもできますが、さらに以下のように配列として利用できます。//
 
@@ -37,8 +37,7 @@ inline int mainFunction()
 	for (size_t i = 0; i < vec3.val.GetArray(); i++)
 	{
 		tmpValue2[i] = vec3.val[i];
-		std::cout << i << "番目 [" << tmpValue2[i] << "]" << std::endl;
-
+		std::cout << i << "番目の値 [" << tmpValue2[i] << "]" << std::endl;
 	}
 
 	return 0;
