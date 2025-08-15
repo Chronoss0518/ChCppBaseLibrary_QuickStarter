@@ -1,7 +1,8 @@
 #pragma once
 
-//Windowsではpragma commentを利用することができるため_WINDOWS_マクロを用いるとリンクもしてくれる//
-//"windows.h"をインクルードすることで内部的に_WINDOWS_マクロが定義されるためリンクしてくれる//
+//VC++では"pragma comment"を利用してリンクすることができる//
+//"windows.h"をインクルードするまたは_WINDOWS_マクロを定義することでChCppLibraryのリンクが行われる//
+//この時、ChCppLibraryのStaticLibraryのパスを"ライブラリディレクトリ"に登録しておく必要がある//
 #ifndef _WINDOWS_
 #define _WINDOWS_ 
 #endif
