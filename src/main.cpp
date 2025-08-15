@@ -24,6 +24,9 @@
 ////FileとBinaryFileの利用方法//
 //#include"UseFile.h"
 
+////Cumulativeの利用方法//
+//#include"UseCumulative.h"
+
 int main(int _argc, char* _args[])
 {
 	return mainFunction();
