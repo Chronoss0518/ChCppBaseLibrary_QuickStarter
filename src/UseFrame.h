@@ -34,7 +34,6 @@ public:
 inline int mainFunction()
 {
 	//BaseFrameは各シーンや画面を管理するためのクラスです//
-	//ぶっちゃけて言うと、利用しなくてもアプリは作れます//
 
 	//Frameを管理するオブジェクトを準備//
 	ChCpp::FrameList frameList;
