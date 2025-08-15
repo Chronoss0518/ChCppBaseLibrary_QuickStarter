@@ -13,6 +13,12 @@ main.cppにある以下のコメントアウトを切り替えることで、内
 
 //挙動を確認したい項目のコメントアウトを外してください//
 
+////ChStdの使用方法//
+//#include"UseChStd.h"//←切り替えられる場所//
+
 ```
 
 サンプルコードは以下の通りです。
+
+- [UseChStd](https://github.com/Chronoss0518/ChCppBaseLibrary_QuickStarter/tree/master/src/UseChStd.h)
+  - ChStdの簡単な使い方のサンプルです
