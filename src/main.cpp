@@ -18,6 +18,9 @@
 ////BaseFrameの利用方法//
 //#include"UseFrame.h"
 
+////BaseObjectとBaseComponentの利用方法//
+//#include"UseObject.h"
+
 int main(int _argc, char* _args[])
 {
 	return mainFunction();
