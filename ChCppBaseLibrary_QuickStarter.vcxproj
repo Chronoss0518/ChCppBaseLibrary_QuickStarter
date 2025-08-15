@@ -151,6 +151,7 @@
     <ClInclude Include="src\UseChMathAndChMath3D.h" />
     <ClInclude Include="src\UseChPtr.h" />
     <ClInclude Include="src\UseChStd.h" />
+    <ClInclude Include="src\UseFrame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
