@@ -21,6 +21,9 @@
 ////BaseObjectとBaseComponentの利用方法//
 //#include"UseObject.h"
 
+////FileとBinaryFileの利用方法//
+//#include"UseFile.h"
+
 int main(int _argc, char* _args[])
 {
 	return mainFunction();
